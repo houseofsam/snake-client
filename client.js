@@ -19,21 +19,7 @@ const connect = function() {
 
     conn.write('Name: SAM');
 
-    setTimeout(() => {
-      conn.write('Move: up');
-    }, 500)
-    setTimeout(() => {
-      conn.write('Move: up');
-    }, 550)
-    setTimeout(() => {
-      conn.write('Move: up');
-    }, 600)
-    setTimeout(() => {
-      conn.write('Move: up');
-    }, 650)
-    setTimeout(() => {
-      conn.write('Move: up');
-    }, 700)
+
   });
 
   return conn;
